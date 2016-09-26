@@ -4,10 +4,10 @@
 
 ### Project Struture:
 
-* stat159-fall2016-project1/
-        * .gitignore
-        * README.md
-        * paper/
+* stat159-fall2016-project1/  
+        * .gitignore  
+        * README.md  
+        * paper/  
                 * sections/
                         * 00-abstract.md
                         * 01-introduction.md
@@ -24,4 +24,4 @@
 
 
 ### Creative Commons License
-[Attribution-NonCommercial-NoDerivatives 4.0 Internationa](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
