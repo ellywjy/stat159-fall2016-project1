@@ -5,4 +5,4 @@ As mentioned above, this report is produced with the help of Git, GitHub, pandoc
 
 
 #### Git
-![Git](../../images/git-logo.png)
+![Git](../images/git-logo.png)
