@@ -1,7 +1,13 @@
 
+all: paper.md paper.html
 
-paper.html: paper.md
-	pandoc -f markdown -t html paper.md
+mds = $(wildcard paper/sections/*.md)
+
+paper/paper.md: $(mds)
+	cat $(mds) > paper/paper.md
+
+paper/paper.html: paper/paper.md
+	pandoc $< -s -o $@
 
 clean:
-	rm paper.html
+	rm paper/paper.html
