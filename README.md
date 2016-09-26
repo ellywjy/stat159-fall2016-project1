@@ -23,5 +23,7 @@
 		* stat159-logo.png
 
 ### Creative Commons License
+
 ![License]("https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png")
+
 [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
