@@ -1,5 +1,5 @@
 
-all: paper.md paper.html
+all: paper/paper.md paper/paper.html
 
 mds = $(wildcard paper/sections/*.md)
 
