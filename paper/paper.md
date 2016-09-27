@@ -1,6 +1,8 @@
 # Statistics 159 - Project 1: Reproducible Work
 ## Author: Elly Wang
 
+### Abstract
+
 Reproduciblitiy is very important in today's scientific world. To ensure that one's work is correct and reproducible, many computer softwares are developed to assist with the checking process. In this report, we will document the production of this report itself and note the various technologies that we have used in making this reporducible work. 
 
 
@@ -33,7 +35,7 @@ Git, as explained above, keeps track of all the changes that were made to the pr
 
 
 #### Markdown
-![Markdown](../images/Markdown-logo.png)
+![Markdown](../images/markdown-logo.png)
 
 Lastly, and most importantly, we have **markdown**. Markdown plays the largest role in this project since all the contents for this project are written in Markdown.  
 
@@ -46,7 +48,7 @@ Markdown is text formatting language where we can write up content, add pictures
 
 
 
-#### Conclusion
+### Conclusion
 
 As mentioned above, we used all four software packages mentioned above.
 Easy parts of this project was writing up the content, and the challenging part of this project was setting up the project directories

@@ -22,7 +22,7 @@ Git, as explained above, keeps track of all the changes that were made to the pr
 
 
 #### Markdown
-![Markdown](../images/Markdown-logo.png)
+![Markdown](../images/markdown-logo.png)
 
 Lastly, and most importantly, we have **markdown**. Markdown plays the largest role in this project since all the contents for this project are written in Markdown.  
 
