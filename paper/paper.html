@@ -15,14 +15,20 @@
 <h3 id="introduction">Introduction</h3>
 <p>The motivation behind this project is to see how reproducible work could be made with the help of Git, GitHub, pandoc, and Markdown. The details regarding the roles the softwares have in this project will be discussed in the next section of this paper. Overall, this paper should present you how reproducible work is made possible and simple with these four particular technology, and that reproducible work is not hard to produce once you set everything up correctly.</p>
 <h3 id="discussion">Discussion</h3>
-<p>As mentioned above, this report is produced with the help of Git, GitHub, pandoc, and Markdown. In this section, we will discussion the roles they played in helping to make reproducible work possible.</p>
+<p>As mentioned above, this report is produced with the help of Git, GitHub, pandoc, Makefile, and Markdown. In this section, we will discussion the roles they played in helping to make reproducible work possible.</p>
 <h4 id="git">Git</h4>
 <div class="figure">
 <img src="../images/git-logo.png" alt="Git" />
 <p class="caption">Git</p>
 </div>
-<p>The first, and very important, software I used in this project is <strong>Git</strong>. Git is a version control program that helps to keep track of all the changes I've made in each of the files in the project directory. Since Git keeps track of all the commits in a log, I can easily go back to a previous version of my work if some of my recent edits did not work. Git is important in reproducible workflow because one can easily check the log and find out detailed steps of what changes were made to the entire project, given that the person who produced the work committed frequently. #### GitHub <img src="../images/github-logo.png" alt="Github" /></p>
-<p>Git, as explained above, keeps track of all the changes that were made to the project as the author commits his/her changes. <strong>GitHub</strong> utilized the verson control from Git and created a space where we can add collaborators, work together, and share code through the web. Github offers an amazing place for collaboration, and this brings out the importance of Git's commits and logs-- changes made by each collaborator will be placed in the log, so all other collaborators can check what changes were made since they last checked the project. Although Github's features were not fully utilized in this project (since this was an individual project), it did allow us to share our project directories and work space with the instructors, which is an easier way for the project to be graded.</p>
+<p>The first, and very important, software I used in this project is <strong>Git</strong>. Git is a version control program that helps to keep track of all the changes I've made in each of the files in the project directory. Since Git keeps track of all the commits in a log, I can easily go back to a previous version of my work if some of my recent edits did not work.</p>
+<p>Git is also important in reproducible workflow for that one can easily check the log and find out detailed steps of what changes were made to the entire project, given that the person who produced the work committed frequently.</p>
+<h4 id="github">GitHub</h4>
+<div class="figure">
+<img src="../images/github-logo.png" alt="Github" />
+<p class="caption">Github</p>
+</div>
+<p>Git, as explained above, keeps track of all the changes that were made to the project as the author commits his/her changes. <strong>GitHub</strong> utilized the verson control from Git and created a space where we can add collaborators, work together, and share code through the web. Github offers an amazing place for collaboration, and this brings out the importance of Git's commits and logs-- changes made by each collaborator will be placed in the log, so all other collaborators can check what changes were made since they last checked the project. Although Github's features were not fully utilized in this project (since this was an individual project), it did allow us to share our project directories and work space with the instructors, and that made grading this project a lot easier for them.</p>
 <h4 id="pandoc">pandoc</h4>
 <div class="figure">
 <img src="../images/pandoc-logo.png" alt="pandoc" />
@@ -30,16 +36,18 @@
 </div>
 <p><strong>Pandoc</strong> helps with the conversion of documents from one version to another. It's often very useful for us since we may write our code and projects in markdown, and markdown isn't very aesthetically pleasing for presentation purposes. This is where pandoc proves its usefulness. Specifically in this project, we used pandoc to convert our project from markdown files to html so it's easy for the eye to read.</p>
 <h4 id="makefile">Makefile</h4>
+<p>To weave everything together and process other commands, one can type in the same few lines of code into a command line over and over again, or one can just use <strong>Makefile</strong>! Makefile is a type of file that contains all the &quot;recipes&quot; for documents in a certain directory. Having these command line directions in a file automates a lot of processes. What used to take at least a minute to do now can be processed automatically, within seconds and without typos! In this project, Makefile played the role of weaving together all the sections of this paper and turning them from markdown files to a html with everything. In general, Makefiles can do much more than just weaving documents and converting them using pandoc. Makefiles makes reproducible work an painless automated process. They are easy to use and eliminates a lot of hassle.</p>
 <h4 id="markdown">Markdown</h4>
 <div class="figure">
 <img src="../images/markdown-logo.png" alt="Markdown" />
 <p class="caption">Markdown</p>
 </div>
 <p>Lastly, and most importantly, we have <strong>markdown</strong>. Markdown plays the largest role in this project since all the contents for this project are written in Markdown.</p>
-<p>Markdown is text formatting language where we can write up content, add pictures, add links, and format everything with very simple syntax.</p>
+<p>Markdown is text formatting language where we can write up content, add pictures, add links, and format everything with very simple syntax. Since markdown files can be easily converted to html, pdf, and many other file types by softwares like pandoc, they are preferred by many people in the academic world.</p>
 <h3 id="conclusion">Conclusion</h3>
-<p>As mentioned above, we used all four software packages mentioned above. Easy parts of this project was writing up the content, and the challenging part of this project was setting up the project directories Most time consuming part was setting up</p>
-<p>This project took around 3 hours to complete.</p>
+<p>As mentioned above, we used all five software packages (Makefile, Git, Github, pandoc, and Markdown) in this project. All these packages were essential in making this project a reproducible one. Given the directory with the section files, all one has to do is to run the Makefile to generate the final paper.</p>
+<p>The easy parts of the project was writing up the content and putting them together with command lines tools. With the Makefile set up correctly, the easiest part of this project is probably weaving the paper together and creating the final html. The challenging part and the most time-consuming of this project is probably the setup. Getting the directories and creating the Makefile. Once the directory and Makefile were in place, the rest of the project is very straight forward. This project took around 3 hours to complete, but with more familiarity with the packages used in this project, another project that is similar to this one will probably take shorter time.</p>
+<p>In conclusion, this project uses the five important software -- Makefile, Git, Github, pandoc, and markdown -- to show how fast and simple it is to create reproducible work. With more technology developing, we, as students learning data science and possibly future researchers, should not be afraid of wasting time on making work reproducible. Reproducible work may be a bit time-consuming in the beginning, its repeatable nature makes checking work and further researches possible and easier.</p>
 <div class="figure">
 <img src="../images/stat159-logo.png" alt="Stat159" />
 <p class="caption">Stat159</p>
